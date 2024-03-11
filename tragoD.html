@@ -17,24 +17,96 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+		<link rel="stylesheet" href="styles1.css" />
 	</head>
 	<body>
 		<header>
-            <header class="masthead text-center text-white">
-                <div class="masthead-content">
-                    <div class="container px-5">
-                        <h1 class="masthead-heading mb-0">BAR</h1>
-                        <h2 class="masthead-subheading mb-0">iTSQMET</h2>
-                       
-                    </div>
-                </div>
-                <div class="bg-circle-1 bg-circle"></div>
-                <div class="bg-circle-2 bg-circle"></div>
-                <div class="bg-circle-3 bg-circle"></div>
-                <div class="bg-circle-4 bg-circle"></div>
-            </header>
+			<div>
+				<nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+					<div class="container px-5">
+						<a class="navbar-brand" href="#page-top">Mini bar ITSQMET</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+						<div class="collapse navbar-collapse" id="navbarResponsive">
+							<ul class="navbar-nav ms-auto">
+								<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+								<li class="nav-item"><a class="nav-link" href="ingresar.html">Ingresar</a></li>
+								<li class="nav-item"><a class="nav-link" href="registrar.html">Registrate</a></li>
+								<li class="nav-item"><a class="nav-link" href="ubicacion.html">Ubicacion</a></li>
+								<li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+								<div class="container-icon">
+									<div class="container-cart-icon">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="icon-cart"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+											/>
+										</svg>
+										<div class="count-products">
+											<span id="contador-productos">0</span>
+										</div>
+									</div>
+					
+									<div class="container-cart-products hidden-cart">
+										<div class="row-product hidden">
+											<div class="cart-product">
+												<div class="info-cart-product">
+													<span class="cantidad-producto-carrito">1</span>
+													<p class="titulo-producto-carrito">Zapatos Nike</p>
+													<span class="precio-producto-carrito">$80</span>
+												</div>
+												<svg
+													xmlns="http://www.w3.org/2000/svg"
+													fill="none"
+													viewBox="0 0 24 24"
+													stroke-width="1.5"
+													stroke="currentColor"
+													class="icon-close"
+												>
+													<path
+														stroke-linecap="round"
+														stroke-linejoin="round"
+														d="M6 18L18 6M6 6l12 12"
+													/>
+												</svg>
+											</div>
+										</div>
+		
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</div>
+		   
+	
 			
+	
 		</header>
+		<body>
+			<header>
+				<header class="masthead text-center text-white">
+					<div class="masthead-content">
+						<div class="container px-5">
+							<h1 class="masthead-heading mb-0">BAR</h1>
+							<h2 class="masthead-subheading mb-0">iTSQMET</h2>
+						   
+						</div>
+					</div>
+					<div class="bg-circle-1 bg-circle"></div>
+					<div class="bg-circle-2 bg-circle"></div>
+					<div class="bg-circle-3 bg-circle"></div>
+					<div class="bg-circle-4 bg-circle"></div>
+				</header>
+				
+			</header>
+	
 
 		
 			
@@ -56,113 +128,78 @@
 
 				<div class="container-options">
 					
-                    <a class="btn btn-primary btn-xl rounded-pill mt-5" href="tinda.html">Regresar</a>
+                 
+
+					<section class="container top-products">
+			
+		
+						<div class="container-options">
+							
+							<a class="btn btn-primary btn-xl rounded-pill mt-5" href="tinda.html">Regresar</a>
+							
+						</div>
+		
+						<div>
+							<div class="cart-total hidden">
+								<h3>Total:</h3>
+								<span class="total-pagar">$200</span>
+							</div>
+							<p class="cart-empty">El carrito está vacío</p>
+						</div>
+					</div>
+				</header>
+				<div class="container-items">
+					<div class="item">
+						<figure>
+							<img
+								src="assets/img/stwitch.webp"
+								alt="producto"
+							/>
+						</figure>
+						<div class="info-product">
+							<h2>Switch </h2>
+							<p class="price">$3</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+					<div class="item">
+						<figure>
+							<img
+								src="assets/img/vene.jpg"
+								alt="producto"
+							/>
+						</figure>
+						<div class="info-product">
+							<h2>Veneto</h2>
+							<p class="price">$3</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+					<div class="item">
+						<figure>
+							<img
+								src="assets/img/cubata.jpg"
+								alt="producto"
+							/>
+						</figure>
+						<div class="info-product">
+							<h2>Cubata</h2>
+							<p class="price">$5</p>
+							<button class="btn-add-cart">Añadir al carrito</button>
+						</div>
+					</div>
+					
+				
+				<script src="index.js"></script>
+				</body>	
 					
 				</div>
 
 				<div class="container-products">
 					<!-- Producto 1 -->
-					<div class="card-product">
-						<div class="container-img">
-							<img src="assets/img/stwitch.webp" alt="Cafe Irish" />
-							<span class="discount">-13%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Irish</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$3.60 <span>$4.30</span></p>
-						</div>
+					<div>
+						
 					</div>
-					<!-- Producto 2 -->
-					<div class="card-product">
-						<div class="container-img">
-							<img
-								src="assets/img/cubata.jpg"
-								alt="Cafe incafe-ingles.jpg"
-							/>
-							<span class="discount">-22%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Inglés</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$3.00 <span>$4.30</span></p>
-						</div>
-					</div>
-					<!--  -->
-					<div class="card-product">
-						<div class="container-img">
-							<img
-								src="assets/img/vene.jpg"
-								alt="Cafe Australiano"
-							/>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-							</div>
-							<h3>Cafe Australiano</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$3.20</p>
-						</div>
-					</div>
-					<!--  -->
 					
 						
 					
